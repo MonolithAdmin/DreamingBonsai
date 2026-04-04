@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 260 25% 6%;
+    --foreground: 45 30% 92%;
+    --card: 260 20% 10%;
+    --card-foreground: 45 30% 92%;
+    --popover: 260 20% 10%;
+    --popover-foreground: 45 30% 92%;
+    --primary: 45 80% 60%;
+    --primary-foreground: 260 25% 6%;
+    --secondary: 280 30% 20%;
+    --secondary-foreground: 45 30% 92%;
+    --muted: 260 15% 15%;
+    --muted-foreground: 260 10% 55%;
+    --accent: 340 60% 65%;
+    --accent-foreground: 45 30% 95%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 15% 18%;
+    --input: 260 15% 18%;
+    --ring: 45 80% 60%;
+    --chart-1: 45 80% 60%;
+    --chart-2: 340 60% 65%;
+    --chart-3: 280 40% 50%;
+    --chart-4: 160 50% 45%;
+    --chart-5: 200 60% 50%;
+    --radius: 0.75rem;
+    --font-cinzel: 'Cinzel', serif;
+    --font-outfit: 'Outfit', sans-serif;
+    --sidebar-background: 260 20% 8%;
+    --sidebar-foreground: 45 30% 92%;
+    --sidebar-primary: 45 80% 60%;
+    --sidebar-primary-foreground: 260 25% 6%;
+    --sidebar-accent: 280 30% 20%;
+    --sidebar-accent-foreground: 45 30% 92%;
+    --sidebar-border: 260 15% 18%;
+    --sidebar-ring: 45 80% 60%;
+  }
+
+  .dark {
+    --background: 260 25% 6%;
+    --foreground: 45 30% 92%;
+    --card: 260 20% 10%;
+    --card-foreground: 45 30% 92%;
+    --popover: 260 20% 10%;
+    --popover-foreground: 45 30% 92%;
+    --primary: 45 80% 60%;
+    --primary-foreground: 260 25% 6%;
+    --secondary: 280 30% 20%;
+    --secondary-foreground: 45 30% 92%;
+    --muted: 260 15% 15%;
+    --muted-foreground: 260 10% 55%;
+    --accent: 340 60% 65%;
+    --accent-foreground: 45 30% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 260 15% 18%;
+    --input: 260 15% 18%;
+    --ring: 45 80% 60%;
+    --chart-1: 45 80% 60%;
+    --chart-2: 340 60% 65%;
+    --chart-3: 280 40% 50%;
+    --chart-4: 160 50% 45%;
+    --chart-5: 200 60% 50%;
+    --sidebar-background: 260 20% 8%;
+    --sidebar-foreground: 45 30% 92%;
+    --sidebar-primary: 45 80% 60%;
+    --sidebar-primary-foreground: 260 25% 6%;
+    --sidebar-accent: 280 30% 20%;
+    --sidebar-accent-foreground: 45 30% 92%;
+    --sidebar-border: 260 15% 18%;
+    --sidebar-ring: 45 80% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px hsl(45 80% 60% / 0.3), 0 0 40px hsl(45 80% 60% / 0.1);
+  }
+  .text-glow-pink {
+    text-shadow: 0 0 20px hsl(340 60% 65% / 0.3), 0 0 40px hsl(340 60% 65% / 0.1);
+  }
+}
