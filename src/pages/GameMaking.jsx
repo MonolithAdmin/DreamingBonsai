@@ -7,7 +7,7 @@ import AnimatedReveal from '../components/AnimatedReveal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-const GAMES_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/fefe5e6cb_generated_83bc6f9f.png";
+const GAMES_IMG = "https://mattjackdreamingfactory.com/assets/games.png";
 
 export default function GameMaking() {
   return (
