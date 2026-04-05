@@ -6,6 +6,11 @@ export default defineConfig({
   logLevel: 'error', 
   plugins: [
     react(),
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   ],
   build: {
     outDir: 'dist',
