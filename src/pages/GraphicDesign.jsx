@@ -7,7 +7,7 @@ import AnimatedReveal from '../components/AnimatedReveal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-const DESIGN_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/0751c9c27_generated_71ae379f.png";
+const DESIGN_IMG = "https://mattjackdreamingfactory.com/assets/design.png";
 
 export default function GraphicDesign() {
   return (
