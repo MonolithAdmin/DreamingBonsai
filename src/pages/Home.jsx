@@ -9,11 +9,11 @@ import AnimatedReveal from '../components/AnimatedReveal';
 import ServiceCard from '../components/ServiceCard';
 import SectionDivider from '../components/SectionDivider';
 
-const HERO_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/155504052_generated_ebd3153f.png";
-const ABOUT_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/9e30e091b_generated_fbe24245.png";
-const DESIGN_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/0751c9c27_generated_71ae379f.png";
-const ILLUST_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/4203c4c93_generated_d96e7430.png";
-const GAMES_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/fefe5e6cb_generated_83bc6f9f.png";
+const HERO_IMG = "https://mattjackdreamingfactory.com/assets/home.png";
+const ABOUT_IMG = "https://mattjackdreamingfactory.com/assets/about.png";
+const DESIGN_IMG = "https://mattjackdreamingfactory.com/assets/design.png";
+const ILLUST_IMG = "https://mattjackdreamingfactory.com/assets/illust.png";
+const GAMES_IMG = "https://mattjackdreamingfactory.com/assets/games.png";
 
 export default function Home() {
   const heroRef = useRef(null);
