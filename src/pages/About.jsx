@@ -7,7 +7,7 @@ import AnimatedReveal from '../components/AnimatedReveal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-const ABOUT_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/9e30e091b_generated_fbe24245.png";
+const ABOUT_IMG = "https://mattjackdreamingfactory.com/assets/about.png";
 
 export default function About() {
   return (
