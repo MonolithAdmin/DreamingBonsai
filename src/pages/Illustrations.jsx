@@ -7,7 +7,7 @@ import AnimatedReveal from '../components/AnimatedReveal';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 
-const ILLUST_IMG = "https://media.db.com/images/public/69d1685144b1fbb1e8ed4171/4203c4c93_generated_d96e7430.png";
+const ILLUST_IMG = "https://mattjackdreamingfactory.com/assets/illust.png";
 
 export default function Illustrations() {
   return (
